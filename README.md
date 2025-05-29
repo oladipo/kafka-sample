@@ -27,7 +27,8 @@ This project demonstrates how to use [confluent-kafka-go](https://github.com/con
 
 3. Run the program
 
-``` go run main.go
+```bash
+go run main.go
 
 You should see output indicating messages are being delivered and then consumed.
 
