@@ -25,23 +25,36 @@ This project demonstrates how to use [confluent-kafka-go](https://github.com/con
    cd kafka
    go mod tidy
 
-3. Run the program
+3. **Run the program**
 
 ```bash
 go run main.go
 
 You should see output indicating messages are being delivered and then consumed.
 
-Code Overview
-Producer:
-Connects to Kafka and sends 1000 "Hello from Go!" messages to test-topic.
-Consumer:
-Subscribes to test-topic and prints each message as it is consumed.
-Example Output
+## Code Overview
+- **Producer:**  
+  Connects to Kafka and sends 1000 `"Hello from Go!"` messages to `test-topic`.
+- **Consumer:**  
+  Subscribes to `test-topic` and prints each message as it is consumed.
 
+## Example Output
+
+```
 Delivered to [test-topic][0]@123
 ...
 Consumed message: Hello from Go! from test-topic[0]@123
+...
+```
+
+## Notes
+
+- The producer and consumer run sequentially in the same program for demonstration.
+- In production, you would typically run them as separate services.
+
+## License
+
+MIT
 ...
 
 Notes
