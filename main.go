@@ -53,7 +53,7 @@ func main() {
 
 	// --- Kafka Consumer (Subscriber) ---
 	consumer, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers": "localhost:9092",
+		"bootstrap.servers": "localhost:9092, localhost:10092, localhost:11092",
 		"group.id":          "go-consumer-group-1",
 		"auto.offset.reset": "earliest",
 	})
