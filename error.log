@@ -1,0 +1,65 @@
+2025/06/13 19:09:15 main.go:140: Consuming messages from test-topic...
+2025/06/13 19:09:15 main.go:140: Consuming messages from test-topic...
+2025/06/13 19:09:15 main.go:140: Consuming messages from test-topic...
+2025/06/13 19:09:15 main.go:140: Consuming messages from test-topic...
+2025/06/13 19:09:15 main.go:140: Consuming messages from test-topic...
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:12:24.160728 +0100 WAT m=+0.050025251"} from test-topic[0]@0
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:12:24.161232 +0100 WAT m=+0.050528626"} from test-topic[0]@1
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:12:24.16124 +0100 WAT m=+0.050536751"} from test-topic[0]@2
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:12:24.161242 +0100 WAT m=+0.050539334"} from test-topic[0]@3
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:12:24.161244 +0100 WAT m=+0.050541167"} from test-topic[0]@4
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:13:58.84634 +0100 WAT m=+0.048267459"} from test-topic[0]@5
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:13:58.846663 +0100 WAT m=+0.048590626"} from test-topic[0]@6
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:13:58.846668 +0100 WAT m=+0.048594792"} from test-topic[0]@7
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:13:58.84667 +0100 WAT m=+0.048596834"} from test-topic[0]@8
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:13:58.846671 +0100 WAT m=+0.048598501"} from test-topic[0]@9
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:16:44.442119 +0100 WAT m=+0.035871001"} from test-topic[0]@10
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:16:44.44287 +0100 WAT m=+0.036621542"} from test-topic[0]@11
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:16:44.442873 +0100 WAT m=+0.036625209"} from test-topic[0]@12
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:16:44.442875 +0100 WAT m=+0.036626834"} from test-topic[0]@13
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 15:16:44.442877 +0100 WAT m=+0.036628251"} from test-topic[0]@14
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:44:48.472738 +0100 WAT m=+0.045509959"} from test-topic[0]@15
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:44:48.473258 +0100 WAT m=+0.046029959"} from test-topic[0]@16
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:44:48.473262 +0100 WAT m=+0.046033709"} from test-topic[0]@17
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:44:48.473264 +0100 WAT m=+0.046035542"} from test-topic[0]@18
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:44:48.473265 +0100 WAT m=+0.046037084"} from test-topic[0]@19
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:45:14.388734 +0100 WAT m=+0.015516959"} from test-topic[0]@20
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:45:14.388863 +0100 WAT m=+0.015645918"} from test-topic[0]@21
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:45:14.388866 +0100 WAT m=+0.015648793"} from test-topic[0]@22
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:45:14.388867 +0100 WAT m=+0.015650418"} from test-topic[0]@23
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:45:14.388869 +0100 WAT m=+0.015651793"} from test-topic[0]@24
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:46:10.137432 +0100 WAT m=+0.032966459"} from test-topic[0]@25
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:46:10.137793 +0100 WAT m=+0.033327168"} from test-topic[0]@26
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:46:10.137797 +0100 WAT m=+0.033330751"} from test-topic[0]@27
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:46:10.137798 +0100 WAT m=+0.033332418"} from test-topic[0]@28
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:46:10.1378 +0100 WAT m=+0.033333793"} from test-topic[0]@29
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:49:51.760677 +0100 WAT m=+0.049786168"} from test-topic[0]@30
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:49:51.761019 +0100 WAT m=+0.050128043"} from test-topic[0]@31
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:49:51.761022 +0100 WAT m=+0.050131501"} from test-topic[0]@32
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:49:51.761024 +0100 WAT m=+0.050133251"} from test-topic[0]@33
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:49:51.761026 +0100 WAT m=+0.050134959"} from test-topic[0]@34
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:50:28.141239 +0100 WAT m=+0.031967543"} from test-topic[0]@35
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:50:28.141541 +0100 WAT m=+0.032270460"} from test-topic[0]@36
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:50:28.141545 +0100 WAT m=+0.032273835"} from test-topic[0]@37
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:50:28.141547 +0100 WAT m=+0.032275501"} from test-topic[0]@38
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:50:28.141548 +0100 WAT m=+0.032277001"} from test-topic[0]@39
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:57:34.468388 +0100 WAT m=+0.052358834"} from test-topic[0]@40
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:57:34.468972 +0100 WAT m=+0.052942876"} from test-topic[0]@41
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:57:34.468975 +0100 WAT m=+0.052946251"} from test-topic[0]@42
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:57:34.468977 +0100 WAT m=+0.052948043"} from test-topic[0]@43
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:57:34.468979 +0100 WAT m=+0.052949668"} from test-topic[0]@44
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:58:38.104431 +0100 WAT m=+0.042675334"} from test-topic[0]@45
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:58:38.104868 +0100 WAT m=+0.043113126"} from test-topic[0]@46
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:58:38.104873 +0100 WAT m=+0.043117251"} from test-topic[0]@47
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:58:38.104874 +0100 WAT m=+0.043119167"} from test-topic[0]@48
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 19:58:38.104877 +0100 WAT m=+0.043121334"} from test-topic[0]@49
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 20:03:48.674649 +0100 WAT m=+0.042568793"} from test-topic[0]@50
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 20:03:48.67507 +0100 WAT m=+0.042989876"} from test-topic[0]@51
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 20:03:48.675078 +0100 WAT m=+0.042998001"} from test-topic[0]@52
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 20:03:48.675086 +0100 WAT m=+0.043005793"} from test-topic[0]@53
+2025/06/13 19:09:15 main.go:147: Consumed message: {"event":"user_signup","user_id":"abc123","timestamp":"2025-06-13 20:03:48.675088 +0100 WAT m=+0.043008043"} from test-topic[0]@54
+2025/06/13 19:09:25 main.go:150: Consumer error: Local: Timed out (<nil>)
+2025/06/13 19:09:25 main.go:150: Consumer error: Local: Timed out (<nil>)
+2025/06/13 19:09:25 main.go:150: Consumer error: Local: Timed out (<nil>)
+2025/06/13 19:09:25 main.go:150: Consumer error: Local: Timed out (<nil>)
+2025/06/13 19:09:25 main.go:150: Consumer error: Local: Timed out (<nil>)

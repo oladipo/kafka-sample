@@ -1,0 +1,65 @@
+replicaCount: 3  # Minimum 3 for HA clustering
+auth:
+  username: rabbitadmin
+  password: # Use an external secret in production, see note below
+  existingSecret: rabbitmq-secret
+  erlangCookie: # Also use a secret
+  existingErlangSecret: rabbitmq-erlang-secret
+
+persistence:
+  enabled: true
+  storageClass: "fast-ssd" # Use appropriate class for your cloud provider
+  size: 20Gi
+
+rbac:
+  create: true
+
+service:
+  type: ClusterIP  # Use LoadBalancer or Ingress separately if needed
+
+resources:
+  requests:
+    memory: 1Gi
+    cpu: 500m
+  limits:
+    memory: 2Gi
+    cpu: 1
+
+clustering:
+  enabled: true
+
+extraPlugins: "rabbitmq_management rabbitmq_peer_discovery_k8s rabbitmq_prometheus"
+
+volumePermissions:
+  enabled: true  # Ensures volume permissions are set properly in some environments
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true  # Useful if using Prometheus Operator
+
+livenessProbe:
+  enabled: true
+readinessProbe:
+  enabled: true
+
+networkPolicy:
+  enabled: true  # Optional: Restrict access to RabbitMQ pods
+
+podDisruptionBudget:
+  enabled: true
+  minAvailable: 2  # At least 2 RabbitMQ pods should always be running
+
+podAntiAffinityPreset: hard  # Ensures pods are on different nodes
+affinity: {}
+tolerations: []
+
+priorityClassName: "high-priority"
+
+tls:
+  enabled: true
+  existingSecret: rabbitmq-tls-secret
+  failIfNoCert: true
+
+
+
